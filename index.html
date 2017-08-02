@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- VERSI OFFLINE -->
+	<!-- <script src="jquery-3.2.1.min.js"></script> -->
+
+	<!-- VERSI ONLINE -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1 id="judul"></h1>
+	<img src="" />
+	<div id="content">
+		<span class="pengarang"></span><br>
+		<span class="isi">
+		</span>
+
+		<ul>
+			<li></li>
+		</ul>
+	</div>
+
+
+
+	<script>
+
+		$(document).ready(function(){
+
+			
+			$("h3").css("color", "red");
+
+			$("#judul").html("Teknik Dasar dalam Permainan Sepak Bola dan Cara Melakukannya");
+
+			$("span").html("Kalau kamu hanya mengandalkan kemampuan tubuh, serta kecepatan tanpa mempelajari teknik dasar permainan sepak bola, maka kamu akan mendapatkan kesulitan dalam bermain sepak bola. Maka dari itu, di artikel ini, kita akan membahas mengenai teknik dasar sepak bola dan penjelasannya secara lengkap dan jelas agar kamu menjadi pemain sepak bola yang handal. Ok, berikut ini beberapa teknik dasar dalam permainan sepak bola yang harus kamu kuasai untuk menjadi pemain sepak bola yang hebat.");
+
+			$("#content span.pengarang").html("[Andrie Indranata]");
+
+			$("#content span.pengarang").css("color", "red");
+
+			$("ul").remove();
+
+			
+			$("img").attr("src", "https://i1.wp.com/olahraga.pro/wp-content/uploads/2017/01/Teknik-Dasar-Permainan-Sepak-Bola.jpg?w=500&ssl=1");
+		});
+
+	</script>
+
+</body>
+</html>
